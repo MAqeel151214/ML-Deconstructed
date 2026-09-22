@@ -1,6 +1,5 @@
 title: ML Deconstructed
-author: Your Name
-logo: assets/logo.png
+author: Muhammad Aqeel
 execute:
   execute_notebooks: cache
   timeout: 900

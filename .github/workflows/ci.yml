@@ -1,17 +1,35 @@
-name: ci
-on: [push, pull_request]
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.11" }
-      - run: pip install -r requirements.txt
-      - run: pytest --nbmake modules/
-      - run: |
-          FAIL=0
-          for f in $(find modules -name verify_hand_calc.py); do
-            echo "== $f"; python "$f" || FAIL=1
-          done
-          exit $FAIL
+        with:
+          python-version: "3.11"
+      - name: Install the pinned lesson environment
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+      - name: Execute published lesson notebooks
+        shell: bash
+        run: |
+          if [ -d modules ] && find modules -type f -name '*.ipynb' -print -quit | grep -q .; then
+            pytest --nbmake modules/
+          else
+            echo "No published lesson notebooks to execute yet."
+          fi
+      - name: Verify published hand calculations
+        shell: bash
+        run: |
+          if [ -d modules ] && find modules -type f -name 'verify_hand_calc.py' -print -quit | grep -q .; then
+            find modules -type f -name 'verify_hand_calc.py' -print0 | xargs -0 -r -n1 python
+          else
+            echo "No hand-calculation verification scripts to run yet."
+          fi

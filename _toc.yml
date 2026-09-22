@@ -1,5 +1,4 @@
 format: jb-book
 root: intro
+# Add a lesson here only after it has passed its verification and review checks.
 chapters: []
-# After each publish, append, e.g.:
-# - file: modules/00_math_foundations/00_01_vectors_dot_products/notebook
