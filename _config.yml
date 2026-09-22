@@ -1,0 +1,16 @@
+title: ML Deconstructed
+author: Your Name
+logo: assets/logo.png
+execute:
+  execute_notebooks: cache
+  timeout: 900
+repository:
+  url: https://github.com/MAqeel151214/ML-Deconstructed
+  branch: main
+html:
+  use_issues_button: true
+  use_repository_button: true
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - colon_fence

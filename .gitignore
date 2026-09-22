@@ -21,3 +21,14 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.pytest_cache/
+_build/
+.DS_Store
+*.egg-info/
+docs/
+scripts/
+tools/

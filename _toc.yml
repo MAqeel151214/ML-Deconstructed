@@ -1,0 +1,5 @@
+format: jb-book
+root: intro
+chapters: []
+# After each publish, append, e.g.:
+# - file: modules/00_math_foundations/00_01_vectors_dot_products/notebook
