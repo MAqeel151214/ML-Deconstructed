@@ -41,6 +41,10 @@ Start with Module 00 if you know basic Python but want to build the mathematical
 
 Published lessons appear in the online table of contents as they pass the project’s verification and review checks.
 
+### Published lessons
+
+- **Module 00 — Math Foundations:** [00.01 — Vectors & Dot Products: The Engine of Predictions](modules/00_math_foundations/00_01_vectors_dot_products/notebook.ipynb)
+
 ## Run a lesson locally
 
 ```sh

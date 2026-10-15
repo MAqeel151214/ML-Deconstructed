@@ -1,4 +1,6 @@
 format: jb-book
 root: intro
 # Add a lesson here only after it has passed its verification and review checks.
-chapters: []
+chapters:
+  - file: modules/00_math_foundations/00_01_vectors_dot_products/notebook
+    title: "00.01 — Vectors & Dot Products: The Engine of Predictions"
