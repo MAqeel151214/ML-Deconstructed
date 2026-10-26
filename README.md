@@ -44,6 +44,7 @@ Published lessons appear in the online table of contents as they pass the projec
 ### Published lessons
 
 - **Module 00 — Math Foundations:** [00.01 — Vectors & Dot Products: The Engine of Predictions](modules/00_math_foundations/00_01_vectors_dot_products/notebook.ipynb)
+- **Module 00 — Math Foundations:** [00.02 — Matrix Operations & Transformations](modules/00_math_foundations/00_02_matrix_operations_transformations/notebook.ipynb)
 
 ## Run a lesson locally
 
