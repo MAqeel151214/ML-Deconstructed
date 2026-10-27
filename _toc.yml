@@ -6,3 +6,5 @@ chapters:
     title: "00.01 — Vectors & Dot Products: The Engine of Predictions"
   - file: modules/00_math_foundations/00_02_matrix_operations_transformations/notebook
     title: "00.02 — Matrix Operations & Transformations"
+  - file: modules/00_math_foundations/00_03_eigenvectors_eigenvalues/notebook
+    title: "00.03 — Eigenvectors & Eigenvalues"
