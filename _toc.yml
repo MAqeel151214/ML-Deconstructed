@@ -8,3 +8,5 @@ chapters:
     title: "00.02 — Matrix Operations & Transformations"
   - file: modules/00_math_foundations/00_03_eigenvectors_eigenvalues/notebook
     title: "00.03 — Eigenvectors & Eigenvalues"
+  - file: modules/00_math_foundations/00_04_derivatives_gradients/notebook
+    title: "00.04 — Derivatives & Gradients"
