@@ -10,3 +10,5 @@ chapters:
     title: "00.03 — Eigenvectors & Eigenvalues"
   - file: modules/00_math_foundations/00_04_derivatives_gradients/notebook
     title: "00.04 — Derivatives & Gradients"
+  - file: modules/00_math_foundations/00_05_partial_derivatives_chain_rule/notebook
+    title: "00.05 — Partial Derivatives & the Chain Rule"
