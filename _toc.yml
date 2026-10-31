@@ -12,3 +12,5 @@ chapters:
     title: "00.04 — Derivatives & Gradients"
   - file: modules/00_math_foundations/00_05_partial_derivatives_chain_rule/notebook
     title: "00.05 — Partial Derivatives & the Chain Rule"
+  - file: modules/00_math_foundations/00_06_probability_distributions/notebook
+    title: "00.06 — Probability Distributions for Machine Learning"

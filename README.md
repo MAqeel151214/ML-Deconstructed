@@ -48,6 +48,7 @@ Published lessons appear in the online table of contents as they pass the projec
 - **Module 00 — Math Foundations:** [00.03 — Eigenvectors & Eigenvalues](modules/00_math_foundations/00_03_eigenvectors_eigenvalues/notebook.ipynb)
 - **Module 00 — Math Foundations:** [00.04 — Derivatives & Gradients](modules/00_math_foundations/00_04_derivatives_gradients/notebook.ipynb)
 - **Module 00 — Math Foundations:** [00.05 — Partial Derivatives & the Chain Rule](modules/00_math_foundations/00_05_partial_derivatives_chain_rule/notebook.ipynb)
+- **Module 00 — Math Foundations:** [00.06 — Probability Distributions for Machine Learning](modules/00_math_foundations/00_06_probability_distributions/notebook.ipynb)
 
 ## Run a lesson locally
 
