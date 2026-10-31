@@ -14,3 +14,5 @@ chapters:
     title: "00.05 — Partial Derivatives & the Chain Rule"
   - file: modules/00_math_foundations/00_06_probability_distributions/notebook
     title: "00.06 — Probability Distributions for Machine Learning"
+  - file: modules/00_math_foundations/00_07_bayes_theorem/notebook
+    title: "00.07 — Bayes' Theorem: Updating Beliefs with Evidence"
