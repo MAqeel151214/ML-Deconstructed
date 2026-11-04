@@ -52,6 +52,7 @@ Published lessons appear in the online table of contents as they pass the projec
 - **Module 00 — Math Foundations:** [00.07 — Bayes' Theorem: Updating Beliefs with Evidence](modules/00_math_foundations/00_07_bayes_theorem/notebook.ipynb)
 - **Module 00 — Math Foundations:** [00.08 — NumPy Vectorization: Batched Linear Prediction](modules/00_math_foundations/00_08_numpy_vectorization/notebook.ipynb)
 - **Module 01 — ML Fundamentals:** [01.01 — The Learning Paradigm](modules/01_ml_fundamentals/01_01_learning_paradigm/notebook.ipynb)
+- **Module 01 — ML Fundamentals:** [01.02 — Loss Functions Deconstructed](modules/01_ml_fundamentals/01_02_loss_functions_deconstructed/notebook.ipynb)
 
 ## Run a lesson locally
 

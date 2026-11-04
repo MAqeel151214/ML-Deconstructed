@@ -20,3 +20,5 @@ chapters:
     title: "00.08 — NumPy Vectorization: Batched Linear Prediction"
   - file: modules/01_ml_fundamentals/01_01_learning_paradigm/notebook
     title: "01.01 — The Learning Paradigm"
+  - file: modules/01_ml_fundamentals/01_02_loss_functions_deconstructed/notebook
+    title: "01.02 — Loss Functions Deconstructed"
