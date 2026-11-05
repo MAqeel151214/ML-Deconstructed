@@ -22,3 +22,5 @@ chapters:
     title: "01.01 — The Learning Paradigm"
   - file: modules/01_ml_fundamentals/01_02_loss_functions_deconstructed/notebook
     title: "01.02 — Loss Functions Deconstructed"
+  - file: modules/01_ml_fundamentals/01_03_bias_variance_tradeoff/notebook
+    title: "01.03 — The Bias-Variance Tradeoff"
