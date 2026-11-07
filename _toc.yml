@@ -26,3 +26,5 @@ chapters:
     title: "01.03 — The Bias-Variance Tradeoff"
   - file: modules/01_ml_fundamentals/01_04_train_validate_test/notebook
     title: "01.04 — Train, Validate, Test"
+  - file: modules/01_ml_fundamentals/01_05_gradient_descent/notebook
+    title: "01.05 — Gradient Descent: Taking Steps Down a Loss Landscape"
