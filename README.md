@@ -56,6 +56,7 @@ Published lessons appear in the online table of contents as they pass the projec
 - **Module 01 — ML Fundamentals:** [01.03 — The Bias-Variance Tradeoff](modules/01_ml_fundamentals/01_03_bias_variance_tradeoff/notebook.ipynb)
 - **Module 01 — ML Fundamentals:** [01.04 — Train, Validate, Test](modules/01_ml_fundamentals/01_04_train_validate_test/notebook.ipynb)
 - **Module 01 — ML Fundamentals:** [01.05 — Gradient Descent: Taking Steps Down a Loss Landscape](modules/01_ml_fundamentals/01_05_gradient_descent/notebook.ipynb)
+- **Module 01 — ML Fundamentals:** [01.06 — Estimator APIs: Fit, Predict, Inspect](modules/01_ml_fundamentals/01_06_estimator_apis/notebook.ipynb)
 
 ## Run a lesson locally
 
