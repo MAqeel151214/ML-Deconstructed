@@ -30,3 +30,5 @@ chapters:
     title: "01.05 — Gradient Descent: Taking Steps Down a Loss Landscape"
   - file: modules/01_ml_fundamentals/01_06_estimator_apis/notebook
     title: "01.06 — Estimator APIs: Fit, Predict, Inspect"
+  - file: modules/02_supervised_regression/02_01_simple_linear_regression_ols/notebook
+    title: "02.01 — Simple Linear Regression: OLS"
