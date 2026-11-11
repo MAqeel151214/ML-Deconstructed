@@ -59,6 +59,7 @@ Published lessons appear in the online table of contents as they pass the projec
 - **Module 01 — ML Fundamentals:** [01.06 — Estimator APIs: Fit, Predict, Inspect](modules/01_ml_fundamentals/01_06_estimator_apis/notebook.ipynb)
 - **Module 02 — Supervised Regression:** [02.01 — Simple Linear Regression: OLS](modules/02_supervised_regression/02_01_simple_linear_regression_ols/notebook.ipynb)
 - **Module 02 — Supervised Regression:** [02.02 — Multiple Linear Regression: From Features to Coefficients](modules/02_supervised_regression/02_02_multiple_linear_regression/notebook.ipynb)
+- **Module 02 — Supervised Regression:** [02.03 — Gradient Descent for Regression](modules/02_supervised_regression/02_03_gradient_descent_regression/notebook.ipynb)
 
 ## Run a lesson locally
 

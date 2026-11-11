@@ -34,3 +34,5 @@ chapters:
     title: "02.01 — Simple Linear Regression: OLS"
   - file: modules/02_supervised_regression/02_02_multiple_linear_regression/notebook
     title: "02.02 — Multiple Linear Regression: From Features to Coefficients"
+  - file: modules/02_supervised_regression/02_03_gradient_descent_regression/notebook
+    title: "02.03 — Gradient Descent for Regression"
