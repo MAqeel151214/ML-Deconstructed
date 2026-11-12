@@ -36,3 +36,5 @@ chapters:
     title: "02.02 — Multiple Linear Regression: From Features to Coefficients"
   - file: modules/02_supervised_regression/02_03_gradient_descent_regression/notebook
     title: "02.03 — Gradient Descent for Regression"
+  - file: modules/02_supervised_regression/02_04_polynomial_regression/notebook
+    title: "02.04 — Polynomial Regression"
