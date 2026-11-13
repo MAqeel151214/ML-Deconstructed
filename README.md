@@ -61,6 +61,7 @@ Published lessons appear in the online table of contents as they pass the projec
 - **Module 02 — Supervised Regression:** [02.02 — Multiple Linear Regression: From Features to Coefficients](modules/02_supervised_regression/02_02_multiple_linear_regression/notebook.ipynb)
 - **Module 02 — Supervised Regression:** [02.03 — Gradient Descent for Regression](modules/02_supervised_regression/02_03_gradient_descent_regression/notebook.ipynb)
 - **Module 02 — Supervised Regression:** [02.04 — Polynomial Regression](modules/02_supervised_regression/02_04_polynomial_regression/notebook.ipynb)
+- **Module 02 — Supervised Regression:** [02.05 — Ridge Regression](modules/02_supervised_regression/02_05_ridge_regression/notebook.ipynb)
 
 ## Run a lesson locally
 

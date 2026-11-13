@@ -38,3 +38,5 @@ chapters:
     title: "02.03 — Gradient Descent for Regression"
   - file: modules/02_supervised_regression/02_04_polynomial_regression/notebook
     title: "02.04 — Polynomial Regression"
+  - file: modules/02_supervised_regression/02_05_ridge_regression/notebook
+    title: "02.05 — Ridge Regression"
