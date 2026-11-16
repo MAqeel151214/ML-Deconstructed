@@ -63,6 +63,7 @@ Published lessons appear in the online table of contents as they pass the projec
 - **Module 02 — Supervised Regression:** [02.04 — Polynomial Regression](modules/02_supervised_regression/02_04_polynomial_regression/notebook.ipynb)
 - **Module 02 — Supervised Regression:** [02.05 — Ridge Regression](modules/02_supervised_regression/02_05_ridge_regression/notebook.ipynb)
 - **Module 02 — Supervised Regression:** [02.06 — Lasso Regression (L1)](modules/02_supervised_regression/02_06_lasso_regression/notebook.ipynb)
+- **Module 02 — Supervised Regression:** [02.07 — Elastic Net](modules/02_supervised_regression/02_07_elastic_net/notebook.ipynb)
 
 ## Run a lesson locally
 

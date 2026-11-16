@@ -42,3 +42,5 @@ chapters:
     title: "02.05 — Ridge Regression"
   - file: modules/02_supervised_regression/02_06_lasso_regression/notebook
     title: "02.06 — Lasso Regression (L1)"
+  - file: modules/02_supervised_regression/02_07_elastic_net/notebook
+    title: "02.07 — Elastic Net"
