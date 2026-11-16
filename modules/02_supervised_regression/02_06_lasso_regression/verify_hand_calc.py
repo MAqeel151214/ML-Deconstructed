@@ -1,12 +1,39 @@
 """Verify the corrected Lesson 02.06 Lasso fixture."""
 
-import sys
-from pathlib import Path
-
 import numpy as np
 
-sys.path.insert(0, str(Path(__file__).parents[3] / "docs" / "lessons" / "02_06_lasso_regression"))
-from implementation import lasso_coordinate_descent, soft_threshold
+
+def soft_threshold(z: float, gamma: float) -> np.float64:
+    """Return the scalar soft-thresholding operator."""
+    return np.float64(np.sign(z) * max(abs(z) - gamma, 0.0))
+
+
+def lasso_coordinate_descent(
+    X: np.ndarray,
+    y: np.ndarray,
+    lam: float,
+    max_iter: int = 1000,
+    tol: float = 1e-12,
+) -> np.ndarray:
+    """Fit an intercept-plus-features Lasso model with coordinate descent."""
+    X = np.asarray(X, dtype=np.float64)
+    y = np.asarray(y, dtype=np.float64)
+    n_samples, n_features = X.shape
+    w = np.zeros(n_features, dtype=np.float64)
+    b = np.float64(np.mean(y))
+    for _ in range(max_iter):
+        previous = np.r_[b, w].copy()
+        for j in range(n_features):
+            residual = y - b - X @ w + X[:, j] * w[j]
+            rho = np.float64(X[:, j] @ residual)
+            denominator = np.float64(X[:, j] @ X[:, j])
+            if denominator == 0:
+                raise ValueError("X cannot contain a zero-norm feature")
+            w[j] = soft_threshold(rho, X.shape[0] * lam / 2.0) / denominator
+        b = np.float64(np.mean(y - X @ w))
+        if np.max(np.abs(np.r_[b, w] - previous)) < tol:
+            break
+    return np.asarray(np.r_[b, w], dtype=np.float64)
 
 
 X = np.array([
