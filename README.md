@@ -76,6 +76,10 @@ pip install -r requirements.txt
 
 Run a lesson notebook in Jupyter, or use any browser-launch link included in that lesson. Browser launch links are provided only for platforms that are actively maintained for the lesson.
 
+## Contributing
+
+Developers, engineers, educators, and learners are welcome to improve the curriculum with lessons, corrections, explanations, visuals, accessibility improvements, suggestions, and new ideas. See [CONTRIBUTING.md](CONTRIBUTING.md) for the development setup, lesson standard, verification commands, and pull request guidance.
+
 ## License
 
 This repository is released under the [MIT License](LICENSE).
