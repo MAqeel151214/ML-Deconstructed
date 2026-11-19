@@ -66,6 +66,7 @@ Published lessons appear in the online table of contents as they pass the projec
 - **Module 02 — Supervised Regression:** [02.07 — Elastic Net](modules/02_supervised_regression/02_07_elastic_net/notebook.ipynb)
 - **Module 02 — Supervised Regression:** [02.08 — Decision Tree Regression](modules/02_supervised_regression/02_08_decision_tree_regression/notebook.ipynb)
 - **Module 03 — Supervised Classification:** [03.01 — Logistic Regression: From Features to Probabilities](modules/03_supervised_classification/03_01_logistic_regression_from_features_to_probabilities/notebook.ipynb)
+- **Module 03 — Supervised Classification:** [03.02 — Cross-Entropy & GD for Classification](modules/03_supervised_classification/03_02_cross_entropy_gd_classification/notebook.ipynb)
 
 ## Run a lesson locally
 
